@@ -6,13 +6,9 @@ import './App.css'
 function App() {
 
   function dodajFilm(){
-
-  
   let tytulFilmu = document.getElementById("tytul-filmu").value;
   let selectRodzaj = document.getElementById("select-rodzaj").value;
-
-  
-  console.log(tytulFilmu + ", " + selectRodzaj);
+  console.log("Tytuł: " + tytulFilmu + ", rodzaj: " + selectRodzaj);
   }
 
   function handleSubmit(e){
